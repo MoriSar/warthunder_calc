@@ -1,0 +1,112 @@
+<main ng-cloak>
+	<!-- Forms -->
+	<section class="forms">
+		<form name="calcForm">
+			<fieldset>
+				<legend>Введите параметры</legend>
+				<div class="main_field">
+
+					<div class="left_side">
+						<div class="segment">
+							<div class="segment_label"><label for="vehicle">Вид техники:</label></div>
+							<div class="segment_form">
+								<select name="vehicle" ng-model="data.cost" ng-options="vehicle.cost as vehicle.name for vehicle in vehicles"></select>
+							</div>
+						</div>
+						<div class="segment">
+							<div class="segment_label"><label for="br">БР Вашей машины:</label></div>
+							<div class="segment_form">
+								<select name="br" ng-model="data.br" ng-options="br.value as br.name for br in brs"></select>
+							</div>
+						</div>
+						<div class="segment">
+							<div class="segment_label"><label for="destroyed">Среднее кол-во уничтоженой техники противника за один бой:</label></div>
+							<div class="segment_form">
+								<input type="number" name="destroyed" class="short" ng-model="data.destroyed" placeholder="0" required min="0" max="20">
+							</div>
+						</div>
+						<div class="segment">
+							<div class="segment_label"><label for="timeInBattle">Среднее время в бою, мин.:</label></div>
+							<div class="segment_form">
+								<input type="number" name="timeInBattle" class="short" ng-model="data.timeInBattle" placeholder="0" required min="0" max="59">
+							</div>
+						</div>
+						<div class="segment">
+							<div class="segment_label"><label for="expNeed">Необходимый опыт для иследования техники:</label></div>
+							<div class="segment_form">
+								<input type="number" name="expNeed" class="short" ng-model="data.expNeed" placeholder="0" required min="0" max="999999">
+							</div>
+						</div>
+						<div class="segment">
+							<div class="segment_label"><label for="booster">Использование усилителей:</label></div>
+							<div class="segment_form">
+								<select name="booster" ng-model="data.booster" ng-options="booster.value as booster.name for booster in boosters"></select>
+							</div>
+						</div>
+					</div>
+
+					<div class="right_side" ng-controller="ClassController">
+						<div class="clock_body">
+							<div class="clock_arrow" ng-style="{transform: class.clock()}"></div>
+						</div>
+						<div ng-class="class.vehicle()">
+							<div ng-class="class.br()"></div>
+							<div ng-class="class.frag()"></div>
+							<div class="tank_text "ng-show="data.cost == vehicles[0].cost">
+								<div class="vehicle_tank_br">
+									<p>BR - {{data.br}}</p>
+								</div>
+								<div class="vehicle_tank_en">
+									<p>EN - <span>{{data.expNeed}}</span></p>
+								</div>
+							</div>
+							<div class="plane_text" ng-show="data.cost == vehicles[1].cost">
+								<div class="vehicle_plane_br">
+									<p>BR - {{data.br}}</p>
+								</div>
+								<div class="vehicle_plane_en">
+									<p>EN - <span>{{data.expNeed}}</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bottom_side">
+					<div class="calc_buttons">
+						<button class="submit" ng-click="letsCalc()">Рассчитать</button>
+					</div>
+					<div class="logout_button">
+						<button class="logout" ng-click="logout()">Выйти</button>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</section>
+	<!-- End forms -->
+	<!-- Calculation -->
+	<section class="calculation">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Необходимо</th>
+					<th ng-repeat="mode in modes">{{mode.name}}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Уничтожить вражеских единиц:</td>
+					<td ng-repeat="mode in modes">{{results.destroyNeed * mode.ratio |number:0}}</td>
+				</tr>
+				<tr>
+					<td>Боев:</td>
+					<td ng-repeat="mode in modes">{{results.battlesNeed * mode.ratio |number:0}}</td>
+				</tr>
+				<tr>
+					<td>Времени, мин:</td>
+					<td ng-repeat="mode in modes">{{results.timesNeed * mode.ratio |number:0}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<!-- End calculation -->
+</main>

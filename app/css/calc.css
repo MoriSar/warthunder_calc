@@ -1,0 +1,258 @@
+.segment {
+	margin-bottom: 20px;
+}
+.segment_label {
+	font-size: 12px;
+	margin-left: 20px;
+	text-align: right;
+	width: 160px;
+}
+.segment_label,.segment_form {
+	display: inline-block;
+	margin-left: 5px;
+}
+.bottom_side {
+	margin: 20px 0 15px 0;
+}
+table {
+	background: rgba(221,221,221,0.8);
+	margin: 50px auto;
+}
+tr>th:not(:first-child), tr>td:not(:first-child){
+	text-align: center;
+}
+.segment_label,.segment_form {
+	display: inline-block;
+	margin-left: 5px;
+}
+.bottom_side {
+	margin: 20px 0 15px 0;
+}
+.calc_buttons{
+	display: inline;
+	text-align: right;
+	width: 40%;
+}
+.logout_button{
+	display: inline;
+	width: 60%;
+}
+.right_side {
+	width: 630px;
+	height: 430px;
+	min-width: 630px;
+	display: inline-block;
+	margin-left: 20px;
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(13,0,0,1);
+	-moz-box-shadow: 0px 0px 30px 0px rgba(13,0,0,1);
+	box-shadow: 0px 0px 30px 0px rgba(13,0,0,1);
+	border-radius: 10px;
+	position: relative;
+	z-index: 2;
+	font-family: 'octin_prisonregular';
+}
+.vehicle_tank_init {
+	width: 100%;
+	height: 100%;
+	background-color: #753E3E;
+	background: url("../images/screenshots/2016-02-25_00035.jpg") no-repeat center;
+	/*background-size: 100%;*/
+	border-radius: 10px;
+}
+.vehicle_plane_init {
+	width: 100%;
+	height: 100%;
+	background: url("../images/screenshots/2016-02-25_00044.jpg") no-repeat center;
+	/*background-size: 100%;*/
+	border-radius: 10px;
+}
+.clock_body {
+	width: 130px;
+	height: 130px;
+	background: url(../images/clock/clock_body.png) no-repeat center;
+	background-size: 100%;
+	position: absolute;
+	top: -4px;
+	left: -4px;
+}
+.clock_arrow {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(../images/clock/clock_arrow.png) no-repeat 63.7px 32.5px;
+	background-size: 2%;
+	transition: all 1s;
+}
+.vehicle_plane_br,.vehicle_plane_en {
+	position: absolute;
+	color: #000000;
+	text-shadow: 0px 0px 30px rgba(48, 32, 0, 1);
+	font-size: 15px;
+}
+.vehicle_plane_br {
+	bottom: 125px;
+	right: 487px;
+	transform: rotateY(15deg) rotateZ(-19deg) rotateX(30deg);
+}
+.vehicle_plane_en {
+	bottom: 128px;
+	right: 190px;
+	transform: rotateY(6deg) rotateZ(35deg) rotateX(25deg);
+	width: 100px;
+}
+.vehicle_tank_br,.vehicle_tank_en {
+	position: absolute;
+	transform: rotateY(37deg) rotateZ(-8deg) rotateX(-12deg);
+	color: #B4B4B4;
+	text-shadow: 0px 0px 30px rgba(48, 32, 0, 1);
+}
+.vehicle_tank_br {
+	bottom: 132px;
+	font-size: 17px;
+	right: 210px;
+}
+.vehicle_tank_en {
+	bottom: 97px;
+	font-size: 15px;
+	right: 376px;
+	width: 100px;
+}
+.vehicle_tank_frag_1 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px;
+}
+.vehicle_tank_frag_2 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px;
+}
+.vehicle_tank_frag_3 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px;
+}
+.vehicle_tank_frag_4 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px;
+}
+.vehicle_tank_frag_5 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px;
+}
+.vehicle_tank_frag_6 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px;
+}
+.vehicle_tank_frag_7 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 498px 231px;
+}
+.vehicle_tank_frag_8 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 498px 231px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 485.5px 232.5px;
+}
+.vehicle_tank_frag_9 {
+	background:  url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 498px 231px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 485.5px 232.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 522px 236px;
+}
+.vehicle_tank_frag_10 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 498px 231px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 485.5px 232.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 522px 236px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 510.5px 238px;
+}
+.vehicle_tank_frag_11 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 498px 231px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 485.5px 232.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 522px 236px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 510.5px 238px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 497px 239.5px;
+}
+.vehicle_tank_frag_12 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 498px 231px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 485.5px 232.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 522px 236px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 510.5px 238px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 497px 239.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 484.5px 241.5px;
+}
+.vehicle_tank_frag_13 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 498px 231px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 485.5px 232.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 522px 236px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 510.5px 238px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 497px 239.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 484.5px 241.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 521px 245px;
+}
+.vehicle_tank_frag_14 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 498px 231px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 485.5px 232.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 522px 236px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 510.5px 238px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 497px 239.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 484.5px 241.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 521px 245px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 509px 247px;
+}
+.vehicle_tank_frag_15 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 498px 231px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 485.5px 232.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 522px 236px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 510.5px 238px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 497px 239.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 484.5px 241.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 521px 245px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 509px 247px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 496px 249px;
+}
+.vehicle_tank_frag_16 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 498px 231px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 485.5px 232.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 522px 236px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 510.5px 238px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 497px 239.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 484.5px 241.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 521px 245px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 509px 247px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 496px 249px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 483.5px 251px;
+}
+.vehicle_tank_frag_17 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 498px 231px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 485.5px 232.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 522px 236px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 510.5px 238px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 497px 239.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 484.5px 241.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 521px 245px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 509px 247px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 496px 249px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 483.5px 251px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 520px 253.5px;
+}
+.vehicle_tank_frag_18 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 498px 231px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 485.5px 232.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 522px 236px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 510.5px 238px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 497px 239.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 484.5px 241.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 521px 245px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 509px 247px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 496px 249px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 483.5px 251px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 520px 253.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 508.5px 256px;
+}
+.vehicle_tank_frag_19 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 498px 231px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 485.5px 232.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 522px 236px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 510.5px 238px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 497px 239.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 484.5px 241.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 521px 245px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 509px 247px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 496px 249px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 483.5px 251px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 520px 253.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 508.5px 256px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 495px 258px;
+}
+.vehicle_tank_frag_20 {
+	background: url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 524px 220px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 512.5px 221px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 499px 222px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 486.5px 224px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 523px 228px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 511.5px 229px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 498px 231px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 485.5px 232.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 522px 236px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 510.5px 238px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 497px 239.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 484.5px 241.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 521px 245px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 509px 247px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 496px 249px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 483.5px 251px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 520px 253.5px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 508.5px 256px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 495px 258px, url("../images/frags/vehicle_tank_frag.png") no-repeat scroll 482.5px 260px;
+}
+.vehicle_plane_frag_1 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px;
+}
+.vehicle_plane_frag_2 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px;
+}
+.vehicle_plane_frag_3 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px;
+}
+.vehicle_plane_frag_4 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px;
+}
+.vehicle_plane_frag_5 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px;
+}
+.vehicle_plane_frag_6 {
+	background:  url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px;
+}
+.vehicle_plane_frag_7 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 364px 203.5px;
+}
+.vehicle_plane_frag_8 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 364px 203.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 371px 200.5px;
+}
+.vehicle_plane_frag_9 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 364px 203.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 371px 200.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 378px 198px;
+}
+.vehicle_plane_frag_10 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 364px 203.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 371px 200.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 378px 198px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 385px 195px;
+}
+.vehicle_plane_frag_11 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 364px 203.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 371px 200.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 378px 198px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 385px 195px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 212px;
+}
+.vehicle_plane_frag_12 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 364px 203.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 371px 200.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 378px 198px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 385px 195px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 212px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 364px 209px;
+}
+.vehicle_plane_frag_13 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 364px 203.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 371px 200.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 378px 198px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 385px 195px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 212px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 364px 209px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 371px 206.5px;
+}
+.vehicle_plane_frag_14 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 364px 203.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 371px 200.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 378px 198px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 385px 195px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 212px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 364px 209px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 371px 206.5px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 378px 204px;
+}
+.vehicle_plane_frag_15 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 364px 203.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 371px 200.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 378px 198px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 385px 195px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 212px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 364px 209px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 371px 206.5px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 378px 204px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 385px 201px;
+}
+.vehicle_plane_frag_16 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 364px 203.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 371px 200.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 378px 198px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 385px 195px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 212px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 364px 209px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 371px 206.5px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 378px 204px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 385px 201px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 218px;
+}
+.vehicle_plane_frag_17 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 364px 203.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 371px 200.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 378px 198px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 385px 195px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 212px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 364px 209px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 371px 206.5px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 378px 204px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 385px 201px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 218px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 364px 215px;
+}
+.vehicle_plane_frag_18 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 364px 203.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 371px 200.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 378px 198px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 385px 195px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 212px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 364px 209px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 371px 206.5px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 378px 204px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 385px 201px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 218px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 364px 215px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 371px 212.5px;
+}
+.vehicle_plane_frag_19 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 364px 203.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 371px 200.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 378px 198px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 385px 195px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 212px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 364px 209px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 371px 206.5px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 378px 204px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 385px 201px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 218px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 364px 215px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 371px 212.5px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 378px 210px;
+}
+.vehicle_plane_frag_20 {
+	background: url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 357.5px 200px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 364px 197px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 371px 194px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 378px 191.5px, url("../images/frags/vehicle_plane_frag_1.png") no-repeat scroll 385px 189px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 357.2px 206px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 364px 203.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 371px 200.5px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 378px 198px, url("../images/frags/vehicle_plane_frag_2.png") no-repeat scroll 385px 195px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 212px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 364px 209px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 371px 206.5px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 378px 204px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 385px 201px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 357px 218px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 364px 215px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 371px 212.5px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 378px 210px, url("../images/frags/vehicle_plane_frag_3.png") no-repeat scroll 385px 207.5px;
+}
+.vehicle_tank_frag_1,.vehicle_tank_frag_2,.vehicle_tank_frag_3,.vehicle_tank_frag_4,.vehicle_tank_frag_5,.vehicle_tank_frag_6,.vehicle_tank_frag_7,.vehicle_tank_frag_8,.vehicle_tank_frag_9,.vehicle_tank_frag_10,.vehicle_tank_frag_11,.vehicle_tank_frag_12,.vehicle_tank_frag_13,.vehicle_tank_frag_14,.vehicle_tank_frag_15,.vehicle_tank_frag_16,.vehicle_tank_frag_17,.vehicle_tank_frag_18,.vehicle_tank_frag_19,.vehicle_tank_frag_20 {
+	width: 100%;
+	height: 100%;
+	background-size: 1.1%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 3;
+}
+.vehicle_plane_frag_1,.vehicle_plane_frag_2,.vehicle_plane_frag_3,.vehicle_plane_frag_4,.vehicle_plane_frag_5,.vehicle_plane_frag_6,.vehicle_plane_frag_7,.vehicle_plane_frag_8,.vehicle_plane_frag_9,.vehicle_plane_frag_10,.vehicle_plane_frag_11,.vehicle_plane_frag_12,.vehicle_plane_frag_13,.vehicle_plane_frag_14,.vehicle_plane_frag_15,.vehicle_plane_frag_16,.vehicle_plane_frag_17,.vehicle_plane_frag_18,.vehicle_plane_frag_19,.vehicle_plane_frag_20 {
+	width: 100%;
+	height: 100%;
+	background-size: 0.8%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 3;
+}
+

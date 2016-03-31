@@ -1,0 +1,126 @@
+/* app css stylesheet*/
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak { 
+	display: none; 
+}
+/*input::-webkit-input-placeholder { 
+	color: #700000;
+	}*/
+	body {
+		background: url(../images/d_day_1920x1080_ru_logo.jpg) fixed no-repeat center 0px;
+	}
+	input::-webkit-input-placeholder {
+		color: #700000;
+		opacity: 1; 
+		transition: opacity 0.3s ease;
+	}
+	input::-moz-placeholder {
+		color: #700000;
+		opacity: 1; 
+		transition: opacity 0.3s ease;
+	}
+	input::-moz-placeholder {
+		color: #700000;
+		opacity: 1; 
+		transition: opacity 0.3s ease;
+	}
+	input:-ms-input-placeholder {
+		color: #700000;
+		opacity: 1; 
+		transition: opacity 0.3s ease;
+	}
+	input:focus::-webkit-input-placeholder {
+		color: #700000;
+		opacity: 0; 
+		transition: opacity 0.3s ease;
+	}
+	input:focus::-moz-placeholder {
+		color: #700000;
+		opacity: 0; 
+		transition: opacity 0.3s ease;
+	}
+	input:focus:-moz-placeholder {
+		color: #700000;
+		opacity: 0; 
+		transition: opacity 0.3s ease;
+	}
+	input:focus:-ms-input-placeholder {
+		color: #700000;
+		opacity: 0; 
+		transition: opacity 0.3s ease;
+	} 
+	input {
+		width: 200px;
+	}
+	.layout {
+		margin: -20px 0;
+		padding: 20px 0;
+	}
+	.wrapper {
+		max-width: 945px;
+		width: 94%;
+		margin: 0 auto;
+	}
+	h2 {
+		text-align: center;
+		color: #700000;
+		margin: 30px 0 10px 0;
+	}
+	h4 {
+		color: #700000;
+	}
+	fieldset {
+		background: rgba(221,221,221,0.6); 
+		border: 1px solid #fff;
+		border-color: #fff #666661 #666661 #fff;
+	}
+	input,select{
+		background-color: rgba(211,211,211,0.3);
+	}
+	legend {
+		width: auto;
+		padding: 0 20px;
+		background: #020a19;
+		color: #DCDCDC;
+		border: 1px solid #fff;
+		border-color: #e5e5c3 #505014 #505014 #e5e5c3;
+	}
+	.main_field {
+		display: flex;
+	}
+	.left_side {
+		display: inline-block;
+	}
+	.segment {
+		margin-bottom: 20px;
+	}
+	.segment_label {
+		font-size: 12px;
+		margin-left: 20px;
+		text-align: right;
+		width: 160px;
+	}
+	button {
+		height: 30px;
+		padding: 0;
+		margin-left: 40px;	
+		border: 1px solid #000;
+		background: #1C0000;
+		color: #DCDCDC;
+		font-size: 14px;
+		width: 125px;
+	}
+	button:hover {
+		background: rgba(221,221,221,0.6);
+	}
+	.submit:hover,.login:hover,.logout:hover {
+		color: #000;
+	}
+	.reset {
+		background: #ccc;
+		color: #000;
+		font-size: 14px;
+		width: 90px;
+	}
+	.short {
+		width: 80px;
+	}

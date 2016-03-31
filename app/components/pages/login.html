@@ -1,0 +1,33 @@
+<section class="forms">
+	<form name="loginForm" ng-cloak>
+		<fieldset ng-class="">
+			<legend>Необходима авторизация</legend>
+			<div class="main_field">
+				<div class="login_side">
+					<div class="login_segment">
+						<p>Логин</p>
+						<input type="text" ng-model="username" placeholder="login">
+					</div>
+					<div class="login_segment">
+						<p>Пароль</p>
+						<input type="password" ng-model="userpassword" placeholder="pass">
+					</div>
+					<div class="login_segment">
+						<h4>{{login_error}}</h4>
+						<!-- <h4>Неверный логин или пароль</h4> -->
+					</div>
+					<div class="login_segment">
+						<button class="login" ng-click="submit()">Войти</button>
+					</div>
+				</div>
+				<div class="readme_side">
+					<h2>Внимание!</h2>
+					<p>Эта страница авторизации работает в тестовом режиме и не имеет ничего общего с реальными аккаунтами пользователей <b>War Thunder</b>. Всё, что Вы введете в поля формы, никоем образом никуда не отправляется! Проверка выполняется на стороне клиента!</p>
+					<hr>
+					<p>Логин: <span>login</span></p>
+					<p>Пароль: <span>pass</span></p>
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</section>

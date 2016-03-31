@@ -1,0 +1,98 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.main_field,.left_side,.right_side {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.wrapper {
+		max-width: 700px;
+	}
+	.left_side {
+		text-align: left;
+		background: url("../images/5as_wt_forum_head_logo.png") no-repeat scroll 260px -40px;
+		-webkit-background-size: 60%;
+		background-size: 60%;
+	}
+	.login_side,.readme_side {
+		display: inline;
+	}
+	.readme_side {
+		margin-left: 0;
+		padding: 0 10px;
+	}
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.wrapper {
+		max-width: 500px;
+	}
+	.left_side {
+		background: none;
+		padding-right: 20px;
+		text-align: center;
+	}
+	.bottom_side {
+		text-align: center;
+	}
+	.right_side {
+		display: none;
+	}
+	button{
+		margin-left: 10px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	table {
+		font-size: 10px;
+	}
+	table,td, th {
+		padding: 2px!important;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	
+}
